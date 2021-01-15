@@ -16,6 +16,10 @@ inputs:
     description: 'output filename'
     default: '.env'
     required: false
+  append:
+    description: 'append to output file'
+    default: true
+    required: false
   prefix:
     description: 'if `prefix:ACTION_` ssm:/dev/client_id -> ACTION_CLIENT_ID'
     required: false
